@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment files
+.env
+
+# Dataset - do NOT push
+data/mvtec_loco_ad/
+data/mvtec_loco_ad_dummy/
+
+# Dataset archive
+*.tar.xz
+
+# Large model weights
+*.pt
+*.pth
+*.onnx
+
+# React
+dashboard/node_modules/
+dashboard/dist/
+
+# Generated evaluation/output files
+data/evaluation_results/
+data/mvtec_loco_ad/
